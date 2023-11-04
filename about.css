@@ -1,0 +1,30 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+    background-color: brown;
+    margin: 0;
+}
+
+.history,.achievement{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/*RESPONSIVE WEB DESIGN*/
+@media screen and (min-width: 320px) and (max-width: 520px) {
+    
+}
+
+h1{
+    font-size: 17px;
+    padding: 15px;
+}

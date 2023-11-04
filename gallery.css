@@ -1,0 +1,83 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 10px;
+    margin: 0;
+    background-color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.photo-at-the-top{
+    display: flex;
+}
+
+.photo-1,.photo-2{
+    display: flex;
+
+}
+.photo-1 img{
+    width: 250px;
+    height: 250px;
+}
+
+.photo-2 img{
+    width: 250px;
+    height: 250px;
+
+}
+
+
+/*RESPONSIVE DESIGN*/
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    body{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        background-color: black;
+    }
+
+    h1{
+        font-weight: bold;
+        font-size: 1.7rem;
+        padding: 10px;
+        margin: 0;
+        background-color: brown;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+    }
+
+    .photo-at-the-top{
+        display: block;
+    }
+    
+    .photo-1,.photo-2{
+        display: block;
+    
+    }
+    .photo-1 img{
+        width: 100%;
+        height: 180px;
+    }
+    
+    .photo-2 img{
+        width: 100%;
+        height: 180px;
+    
+    }
+    
+}
+
+
+
+
+
+
+

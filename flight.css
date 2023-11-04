@@ -1,0 +1,666 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(IMG/airplane\ web.jpg);
+    background-size: cover;
+}
+.top-of-the-list{
+    background: linear-gradient(45deg, brown, orangered);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-size: 3rem;
+    margin-top: 0;
+    margin-left: 1rem;
+    text-align: center;
+}
+
+.logo img{
+    height: 35px;
+    width: 35px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.links:hover{
+    color: white;
+    background-color: black;
+    border-radius: 30%;
+    padding: 7px;
+}
+
+/*THE DROP DOWN ARROWS*/
+select{
+    border: none;
+    background-color: brown;
+    padding: 7px 5px 5px 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+input,button{
+    padding: 10px 10px 10px 10px;
+
+}
+
+/*FOLDER CONTAINING ALL IN THE BOX*/
+.all-flight,.all-flight2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2rem;
+    background-color: rgb(185, 61, 39);
+    box-shadow: 2px 1px 1px 2px grey;
+    border-radius: 5px;
+    padding: 20px;
+}
+.flight-booking{
+    margin-top: 2rem;
+}
+
+.round-trip1,.round-trip2,.round-trip3,.round-trip4{
+    margin-right: 2rem;
+}
+h2{
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+.bookings{
+    text-decoration: none;
+    color: black;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+}
+
+.bookings:hover{
+    color: tomato;
+}
+
+
+.travels{
+    display: flex;
+    background-color: white;
+    margin-top: 2rem;
+
+}
+
+.travels1 img{
+    width: 230px;
+    height: 190px;
+}
+.travels2 img{
+    width: 230px;
+    height: 190px;
+}
+.travels3 img{
+    width: 230px;
+    height: 190px;
+}
+.travels4 img{
+    width: 230px;
+    height: 190px;
+}
+
+p{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+h4{
+    font-weight: lighter;
+}
+.the-end{
+    display: flex;
+    text-align: justify;
+    margin: 2rem;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px grey;
+    border-radius: 5px;
+    padding: 20px;
+}
+.the-end1,.the-end2,.the-end3,.the-end4{
+    margin-left: 2rem;
+    width: 230px;
+}
+
+
+.the-end4 img{
+    width: 70px;
+    height: 35px;
+}
+
+
+/*RESPONSIVE WEBSITE*/
+@media screen and (min-width: 320px) and (max-width: 360px) {
+    .top-of-the-list{
+        background: linear-gradient(45deg, brown, orangered);
+        display: block;
+        justify-content: center;
+
+    }
+    
+    h1{
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-left: 1rem;
+        text-align: center;
+    }
+    
+    .logo img{
+        display: none;
+    }
+    .links{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+        margin-right:7px;
+        margin-left: 7px;
+    }
+    .bookings{
+        text-decoration: none;
+        color: black;
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    .top-of-the-list{
+        background: linear-gradient(45deg, brown, orangered);
+        display: block;
+        justify-content: center;
+      
+    }
+
+    /*THE DROP DOWN ARROWS*/
+    select{
+        border: none;
+        background-color: brown;
+        padding: 3px 4px 3px 3px;
+        border-radius: 10px;
+        color: white;
+    }
+
+    input,button{
+        padding: 5px 5px 5px 5px;
+
+    }
+
+    input[type=search],button{
+        display: none;
+    }
+    .travels{
+        display: flex;
+        background-color: white;
+        margin-top: 2rem;
+    
+    }
+    
+    .travels1 img{
+        width: 50px;
+        height: 40px;
+    }
+    .travels2 img{
+        width: 50px;
+        height: 40px;
+    }
+    .travels3,.travels4{
+
+       display: none;
+    }
+    p{
+        font-size:9px; 
+    }
+
+    h4{
+        font-size:9px;
+    }
+    .the-end1,.the-end2,.the-end3,.the-end4{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 230px;
+    }
+    .the-end4 img{
+        width: 40px;
+        height: 20px;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 361px) and (max-width: 520px) {
+    
+    .top-of-the-list{
+        background: linear-gradient(45deg, brown, orangered);
+        display: block;
+        justify-content: center;
+      
+    }
+    
+    h1{
+        font-size: 1.7rem;
+        margin-top: 0;
+        margin-left: 1rem;
+        text-align: center;
+    }
+    
+    .logo img{
+        height: 30px;
+        width: 25px;
+    }
+
+    /*THE DROP DOWN ARROWS*/
+    select{
+        border: none;
+        background-color: brown;
+        padding: 3px 4px 3px 3px;
+        border-radius: 10px;
+        color: white;
+    }
+
+    input,button{
+        padding: 5px 5px 5px 5px;
+
+    }
+
+    input[type=search],button{
+        display: none;
+    }
+    .bookings{
+        text-decoration: none;
+        color: black;
+        margin-left: 10px;
+        font-size: 13px;
+    }
+    .travels{
+        display: flex;
+        background-color: white;
+        margin-top: 2rem;
+    
+    }
+    
+    .travels1 img{
+        width: 50px;
+        height: 40px;
+    }
+    .travels2 img{
+        width: 50px;
+        height: 40px;
+    }
+    .travels3,.travels4{
+
+       display: none;
+    }
+    p{
+        font-size:9px; 
+    }
+
+    h4{
+        font-size:9px;
+    }
+    .the-end1,.the-end2,.the-end3,.the-end4{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 230px;
+    }
+    .the-end4 img{
+        width: 40px;
+        height: 20px;
+    }
+ 
+ 
+}
+
+@media screen and (min-width: 521px) and (max-width: 660px) {
+    .top-of-the-list{
+        background: linear-gradient(45deg, brown, orangered);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      
+    }
+    
+    h1{
+        font-size: 2rem;
+        margin-top: 0;
+        margin-left: 1rem;
+        text-align: center;
+    }
+    
+    .logo img{
+        height: 30px;
+        width: 25px;
+    }
+
+    /*THE DROP DOWN ARROWS*/
+    select{
+        border: none;
+        background-color: brown;
+        padding: 3px 4px 3px 3px;
+        border-radius: 10px;
+        color: white;
+    }
+
+    input,button{
+        padding: 7px 7px 7px 7px;
+
+    }
+
+    input[type=search],button{
+        display: none;
+    }
+    .bookings{
+        text-decoration: none;
+        color: black;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .travels{
+        display: flex;
+        background-color: white;
+        margin-top: 2rem;
+    
+    }
+    
+    .travels1 img{
+        width: 60px;
+        height: 45px;
+    }
+    .travels2 img{
+        width: 60px;
+        height: 45px;
+    }
+    .travels3 img{
+        width: 60px;
+        height: 45px;
+    }
+    .travels4{
+        display: none;
+    }
+    p{
+        font-size: 15px; 
+    }
+
+    h4{
+        font-size:13px;
+    }
+    .the-end1,.the-end2,.the-end3,.the-end4{
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 240px;
+    }
+    .the-end4 img{
+        width: 45px;
+        height: 23px;
+    }
+    
+}
+
+@media screen and (min-width: 661px) and (max-width: 800px) {
+    .top-of-the-list{
+        background: linear-gradient(45deg, brown, orangered);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    h1{
+        font-size: 2.5rem;
+        margin-top: 0;
+        margin-left: 1rem;
+        text-align: center;
+    }
+    
+    .logo img{
+        height: 30px;
+        width: 25px;
+    }
+
+    /*THE DROP DOWN ARROWS*/
+    select{
+        border: none;
+        background-color: brown;
+        padding: 3px 4px 3px 3px;
+        border-radius: 10px;
+        color: white;
+    }
+
+    input,button{
+        padding: 7px 7px 7px 7px;
+
+    }
+
+    input[type=search],button{
+        display: none;
+    }
+    .bookings{
+        text-decoration: none;
+        color: black;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .travels{
+        display: flex;
+        background-color: white;
+        margin-top: 2rem;
+    
+    }
+    
+    .travels1 img{
+        width: 70px;
+        height: 50px;
+    }
+    .travels2 img{
+        width: 70px;
+        height: 50px;
+    }
+    .travels3 img{
+        width: 70px;
+        height: 50px;
+    }
+    .travels4{
+        display: none;
+    }
+    p{
+        font-size:15px; 
+    }
+
+    h4{
+        font-size:15px;
+    }
+    .the-end1,.the-end2,.the-end3,.the-end4{
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 240px;
+    }
+    .the-end4 img{
+        width: 45px;
+        height: 23px;
+    }
+    
+}
+
+
+@media screen and (min-width: 821px) and (max-width: 1024px) {
+
+    .top-of-the-list{
+        background: linear-gradient(45deg, brown, orangered);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    h1{
+        font-size: 2.5rem;
+        margin-top: 0;
+        margin-left: 1rem;
+        text-align: center;
+    }
+    
+    .logo img{
+        height: 40px;
+        width: 35px;
+    }
+
+    /*THE DROP DOWN ARROWS*/
+    select{
+        border: none;
+        background-color: brown;
+        padding: 4px 5px 5px 4px;
+        border-radius: 10px;
+        color: white;
+    }
+
+    input,button{
+        padding: 9px 9px 9px 9px;
+
+    }
+
+    input[type=search],button{
+        display: none;
+    }
+    .bookings{
+        text-decoration: none;
+        color: black;
+        margin-left: 15px;
+        font-size: 20px;
+    }
+    .travels{
+        display: flex;
+        background-color: white;
+        margin-top: 2rem;
+    
+    }
+    
+    .travels1 img{
+        width: 70px;
+        height: 50px;
+    }
+    .travels2 img{
+        width: 70px;
+        height: 50px;
+    }
+    .travels3 img{
+        width: 70px;
+        height: 50px;
+    }
+    .travels4 img{
+        width: 70px;
+        height: 50px;
+    }
+    p{
+        font-size:15px; 
+    }
+
+    h4{
+        font-size:15px;
+    }
+    .the-end1,.the-end2,.the-end3,.the-end4{
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 240px;
+    }
+    .the-end4 img{
+        width: 45px;
+        height: 23px;
+    }
+    
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .top-of-the-list{
+        background: linear-gradient(45deg, brown, orangered);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    h1{
+        font-size: 2.5rem;
+        margin-top: 0;
+        margin-left: 1rem;
+        text-align: center;
+    }
+    
+    .logo img{
+        height: 40px;
+        width: 35px;
+    }
+
+    /*THE DROP DOWN ARROWS*/
+    select{
+        border: none;
+        background-color: brown;
+        padding: 4px 5px 5px 4px;
+        border-radius: 10px;
+        color: white;
+    }
+
+    input,button{
+        padding: 9px 9px 9px 9px;
+
+    }
+
+    .bookings{
+        text-decoration: none;
+        color: black;
+        margin-left: 15px;
+        font-size: 20px;
+    }
+    .travels{
+        display: flex;
+        background-color: white;
+        margin-top: 2rem;
+    
+    }
+    
+    .travels1 img{
+        width: 150px;
+        height: 90px;
+    }
+    .travels2 img{
+        width: 150px;
+        height: 90px;
+    }
+    .travels3 img{
+        width: 150px;
+        height: 90px;
+    }
+    .travels4 img{
+        width: 150px;
+        height: 90px;
+    }
+    p{
+        font-size:15px; 
+    }
+
+    h4{
+        font-size:15px;
+    }
+    .the-end1,.the-end2,.the-end3,.the-end4{
+        margin-left: 15px;
+        margin-right: 15px;
+        width: 240px;
+    }
+    .the-end4 img{
+        width: 45px;
+        height: 23px;
+    }
+    
+}
+
+

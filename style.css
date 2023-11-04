@@ -1,0 +1,210 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.top-of-the-list{
+    background: linear-gradient(45deg, brown, orangered);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+
+.logo img{
+    height: 50px;
+    width: 45px;
+}
+
+li{
+    list-style: none;
+}
+/*THE LINK AT THE TOP*/
+.book{
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    margin-left: 0.7rem;
+    margin-right: 0.7rem;
+    transition: 0.3s;
+}
+.book:hover{
+    color: white;
+    background-color: black;
+    border-radius: 30%;
+    padding: 7px;
+}
+
+
+ul{
+    display: flex;
+}
+
+h2{
+    color: brown;
+    font-size: 3rem; 
+    margin-left: 10px;
+}
+h3{
+    color: rgb(245, 88, 60);
+    font-size: 2rem;
+    margin-left: 10px;
+}
+
+
+
+/*RESPONSIVE DESIGN*/
+
+@media screen and (min-width: 320px) and (max-width: 360px) {
+
+    h1{
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 1.7rem;
+    }
+    .logo{
+        display: none;
+    }
+    
+
+    .top-of-the-list{
+        background: linear-gradient(45deg, brown, orangered);
+        display: block;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    .book{
+        text-decoration: none;
+        color: white;
+        font-size: 7px;;
+        margin-left: 6px;
+    }
+    h2{
+        color: brown;
+        font-size: 2rem; 
+        margin-left: 10px;
+    }
+    h3{
+        color: rgb(245, 88, 60);
+        font-size: 1.3rem;
+        margin-left: 10px;
+    }
+}
+@media screen and (min-width: 361px) and (max-width:480px) {
+
+    h1{
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 2rem;
+    }
+    .logo img{
+        height: 40px;
+        width: 35px;
+    }
+    
+
+    .top-of-the-list{
+        background: linear-gradient(45deg, brown, orangered);
+        display: block;
+        justify-content: center;
+        margin-top: 0;
+    }
+    h2{
+        color: rgb(12, 12, 12);
+        font-size: 2.3rem; 
+        margin-left: 10px;
+    }
+    h3{
+        color: rgb(245, 82, 45);
+        font-size: 1.4rem;
+        margin-left: 10px;
+    }
+
+    .book{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;;
+        margin-left: 6px;
+    }
+    
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+
+    h1{
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    .logo img{
+        height: 40px;
+        width: 39px;
+    }
+
+    .top-of-the-list{
+        background: linear-gradient(45deg, rgb(240, 152, 20), rgb(216, 90, 44));
+        display: block;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    nav{  
+        width: 100%;
+    }
+
+    .book{
+        text-decoration: none;
+        color: black;
+        font-size: 15px;;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+ 
+    h1{
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    
+
+    .top-of-the-list{
+        background: linear-gradient(45deg, rgb(240, 152, 20), rgb(216, 90, 44));
+        display: block;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    nav{  
+        width: 100%;
+    }
+
+    .book{
+        text-decoration: none;
+        color: black;
+        font-size: 25px;;
+        margin-left: 15px;
+        margin-right: 15px;
+        text-align: center;
+    }
+}
+
+
+    
+
+
